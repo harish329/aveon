@@ -1,0 +1,58 @@
+body {
+    background-color: #212529 !important;
+    color: rgb(255, 255, 255) !important;
+    font-family: "Chakra Petch", serif;
+    font-family: "chakra-petch-ligh";
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: url(../img/default.png), auto !important;
+}
+
+.dots-bg {
+    position: relative;
+    background-color: #f8f9fa;
+    background-image: radial-gradient(circle, rgba(255, 255, 255, 0.1) 1px, transparent 1px);
+    background-size: 20px 20px;
+}
+
+.gradient-shape-3 {
+    width: 200px;
+    height: 200px;
+    background: linear-gradient(to right, #ec4899, #10b981);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.gradient-shape {
+    position: absolute;
+    border-radius: 50%;
+    filter: blur(70px);
+    z-index: -1;
+    opacity: 0.3;
+}
+.gradient-shape-2 {
+    width: 250px;
+    height: 250px;
+    background: linear-gradient(to right, #10b981, #4f46e5);
+    bottom: -100px;
+    left: -100px;
+}
+
+header a {
+    color: white !important;
+}
+
+.carousel-item img {
+    height: 50vh;
+}
+
+@font-face {
+    font-family: chakra-petch-light;
+    src: url(./ChakraPetch-Bold.ttf);
+}
+
+
+
+.text-muted {
+    color: #f8f9fa !important;
+}
